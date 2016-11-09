@@ -26,7 +26,7 @@ module Cinch; module Plugins; class Codenames < GameBot
 
   match(/help(?: (.+))?/i, method: :help)
   match(/rules/i, method: :rules)
-
+  match(/foo/i, method: :foo)
   match(/peek(?:\s+(##?\w+))?/i, method: :peek)
 
   add_common_commands
@@ -432,4 +432,10 @@ module Cinch; module Plugins; class Codenames < GameBot
   def rules(m)
     m.reply('https://boardgamegeek.com/filepage/119841/codenames-rulebook-english')
   end
+
+  # Test command
+  def foo(m)
+    m.reply('bar')
+  end
+
 end; end; end
