@@ -4,7 +4,7 @@ This is a fork of an IRC bot using [cinch](https://github.com/cinchrb/cinch), [c
 
 https://boardgamegeek.com/boardgame/178900
 
-[![Build Status](https://travis-ci.org/petertseng/cinch-codenames.svg?branch=master)](https://travis-ci.org/petertseng/cinch-codenames)
+[![Build Status](https://travis-ci.com/Romtam/BetterCodenames.svg?token=jU2bRcL1YsgdnFvuP8Xt&branch=master)](https://travis-ci.com/Romtam/BetterCodenames)
 
 ## Setup
 
