@@ -13,6 +13,9 @@ Ruby 2.1 or newer is required because of required keyword arguments.
 
 You'll need to install the required gems, which can be done automatically via `bundle install`, or manually by reading the `Gemfile` and using `gem install` on each gem listed.
 
+## Configuration
+The settings are located in `/var/lib/gems/2.3.0/gems/codenames-1.0.0/lib/codenames`. Alternatively for this bot it is also located [here](https://github.com/Trigonoculus/codenames)
+
 ## Usage
 
 Given that you have performed the requisite setup, the minimal code to get a working bot might resemble:
